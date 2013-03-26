@@ -1,5 +1,5 @@
 === EDD Variable Pricing Descriptions ===
-Contributors: Sumobi
+Contributors: sumobi
 Tags: easy digital downloads, digital downloads, e-downloads, edd, variable pricing, pricing, description
 Requires at least: 3.3
 Tested up to: 3.5.1
