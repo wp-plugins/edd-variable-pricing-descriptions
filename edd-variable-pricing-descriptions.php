@@ -104,7 +104,7 @@ function edd_vpd_download_price_table_row( $post_id, $key, $args ) {
 ?>
 
 	<td>
-		<input type="text" class="edd_variable_prices_description" value="<?php echo esc_attr( $args['description'] ); ?>" placeholder="<?php _e( 'Option Description', 'edd-vpd' ); ?>" name="edd_variable_prices[<?php echo $key; ?>][description]" id="edd_variable_prices[<?php echo $key; ?>][description]" size="20" style="width:100%" />
+		<input type="text" class="edd_variable_prices_description" value="<?php echo esc_attr( $description ); ?>" placeholder="<?php _e( 'Option Description', 'edd-vpd' ); ?>" name="edd_variable_prices[<?php echo $key; ?>][description]" id="edd_variable_prices[<?php echo $key; ?>][description]" size="20" style="width:100%" />
 	</td>
 
 <?php }
