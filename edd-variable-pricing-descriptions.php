@@ -3,7 +3,7 @@
 Plugin Name: EDD Variable Pricing Descriptions
 Plugin URI: http://sumobi.com/store/edd-variable-pricing-descriptions/
 Description: Adds a description field for each variable pricing option
-Version: 1.0
+Version: 1.0.1
 Author: Andrew Munro - Sumobi
 Author URI: http://sumobi.com
 License: GPL-2.0+
@@ -99,7 +99,9 @@ add_action( 'edd_download_price_table_head', 'edd_vpd_download_price_table_head'
  *
  * @since 1.0
  */
-function edd_vpd_download_price_table_row( $post_id, $key, $args ) { ?>
+function edd_vpd_download_price_table_row( $post_id, $key, $args ) {
+	$description = isset($args['description']) ? $args['description'] : null;
+?>
 
 	<td>
 		<input type="text" class="edd_variable_prices_description" value="<?php echo esc_attr( $args['description'] ); ?>" placeholder="<?php _e( 'Option Description', 'edd-vpd' ); ?>" name="edd_variable_prices[<?php echo $key; ?>][description]" id="edd_variable_prices[<?php echo $key; ?>][description]" size="20" style="width:100%" />
