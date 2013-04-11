@@ -27,5 +27,8 @@ EDD Variable Pricing Descriptions simply adds an "Option Description" input fiel
 
 == Changelog ==
 
+= 1.0.1 =
+* Fixed Undefined index
+
 = 1.0 =
 * Initial release
