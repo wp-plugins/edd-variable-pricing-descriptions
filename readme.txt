@@ -16,6 +16,16 @@ Easily add descriptions to variable-priced downloads in Easy Digital Downloads
 
 EDD Variable Pricing Descriptions simply adds an "Option Description" input field for each variable-priced download. This allows you to add a longer description to the option name if needed. It integrates seamlessly into the Easy Digital Downloads plugin using the provided hooks and will automatically output the description onto the front end of the website where variable priced downloads are shown.
 
+**Looking for a free theme for Easy Digital Downloads?**
+[http://sumobi.com/shop/shop-front/](http://sumobi.com/shop/shop-front/ "Shop Front")
+
+Shop Front was designed to be simple, responsive and lightweight. It has only the bare essentials, making it the perfect starting point for your next digital e-commerce store. It’s also easily extensible with a growing collection of add-ons to enhance the functionality and styling.
+
+**Stay up to date**
+*Become a fan on Facebook* [http://www.facebook.com/pages/Sumobi/411698702220075](http://www.facebook.com/pages/Sumobi/411698702220075 "Facebook")
+
+*Follow me on Twitter* [http://twitter.com/sumobi_](http://twitter.com/sumobi_ "Twitter")
+
 == Installation ==
 
 1. Upload entire `edd-variable-pricing-descriptions` to the `/wp-content/plugins/` directory, or just upload the ZIP package via 'Plugins > Add New > Upload' in your WP Admin
@@ -29,9 +39,9 @@ This plugin does not add any CSS styling as it simply adds the description wrapp
 == Screenshots ==
 
 1. The new "Option Description" input fields
-2. The new field values being outputed onto the front-end
+2. The new field values being outputted onto the front-end
 
-== Changelog ==
+== Change log ==
 
 = 1.0.2 =
 * Fix: Undefined Index PHP Notice
